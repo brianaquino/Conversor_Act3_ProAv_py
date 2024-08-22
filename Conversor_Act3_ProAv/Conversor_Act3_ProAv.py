@@ -16,7 +16,7 @@ def limpiar():
     tbCelsius.delete(0, tk.END)
     tbCelsius.insert(0,"")
     tbFarenheint.delete(0, tk.END)
-    tbFarenheint.delete(0,"")
+    tbFarenheint.insert(0,"")
     
     
     
